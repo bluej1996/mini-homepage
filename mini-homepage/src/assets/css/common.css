@@ -13,7 +13,10 @@ blockquote, q {quotes: none;}
 blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
 table {border-collapse: collapse; border-spacing: 0;}
 
-.flex{display: flex; }
+.flex{display: flex; align-items: center;}
+.flex-as{display: flex; align-items: start;}
+.flex-end{display: flex; align-items: center; justify-content: flex-end;}
+
 
 /* 사이트 기본구성 */
 * {box-sizing: border-box;}
