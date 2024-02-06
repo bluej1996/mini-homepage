@@ -2,7 +2,7 @@
 body{padding: 0 40px 40px 40px;}
 .wrap{background: linear-gradient(217deg, rgb(241, 204, 255), rgba(255,0,0,0) 70.71%),
     linear-gradient(127deg, rgba(187, 231, 255, 0.8), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(133, 133, 255, 0.8), rgba(0,0,255,0) 70.71%); min-height: calc(100vh - 40px); width: 100%;border-radius: ;}
+    linear-gradient(336deg, rgba(133, 133, 255, 0.8), rgba(0,0,255,0) 70.71%); min-height: calc(100vh - 40px); width: 100%; border-radius: ;}
 .header{background-color: #fff; height: 54px; position: relative;}
 .header .logo{font-size: 22px; line-height: 54px; text-align: center;}
 
@@ -24,7 +24,7 @@ body{padding: 0 40px 40px 40px;}
 .content{}
 .content .box{background-color: #fff; padding: 16px; margin: 16px; border-radius: 14px;}
 .content .box1{width: 20%; }
-.content .box2{width: 60%; height: 550px;}
+.content .box2{width: 60%; height: calc(100vh - 100px);}
 .content .box3{width: 20%; height: 100px;}
 
 /* 프로필 영역 */
