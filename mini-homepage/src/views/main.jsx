@@ -4,7 +4,8 @@ import React, { Component } from 'react'
 export default class Main extends Component {
   render() {
     return (
-      <div className='wrap'>
+      <div className='container'>
+        <div className='wrap'>
         <div className='header'>
             <div className='logo'>logo</div>
             <div className='loginBox flex'>
@@ -48,12 +49,134 @@ export default class Main extends Component {
                     </div>
                   </div>
                 </li>
+                <li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li><li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <div className='btext'>제목제목</div>
+                      <div className='stext'>내용입니다 .....</div>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
             <div className='box box3'></div>
           </div>
         </div>
         <div className='footer'></div>
+        </div>
       </div>
     )
   }
