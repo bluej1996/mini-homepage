@@ -1,5 +1,5 @@
 @charset "utf-8";
-body{padding: 0 40px 40px 40px; position: relative;}
+body{position: relative;}
 .container{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
 .wrap{background: linear-gradient(217deg, rgb(241, 204, 255), rgba(255,0,0,0) 70.71%),
     linear-gradient(127deg, rgba(187, 231, 255, 0.8), rgba(0,255,0,0) 70.71%),
@@ -23,7 +23,7 @@ body{padding: 0 40px 40px 40px; position: relative;}
 .loginBox span{display: block;}
 
 .content{}
-.content .box{background-color: #fff; padding: 16px; margin: 16px; border-radius: 14px;}
+.content .box{background-color: #fff; padding: 16px;  border-radius: 14px;}
 .content .box1{width: 20%; }
 .content .box2{width: 60%; }
 .content .box3{width: 20%; height: 100px;}
@@ -39,7 +39,8 @@ body{padding: 0 40px 40px 40px; position: relative;}
 /* 게시판 리스트 영역 */
 .box2{height: 514px;}
 .list{height: 480px; overflow-y: scroll;}
-
+.item{}
+.item .thumbnail{}
 
 
 

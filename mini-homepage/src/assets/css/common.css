@@ -14,9 +14,10 @@ blockquote:before, blockquote:after, q:before, q:after {content: ''; content: no
 table {border-collapse: collapse; border-spacing: 0;}
 
 .flex{display: flex; align-items: center;}
-.flex-as{display: flex; align-items: start;}
+.flex-as{display: flex; align-items: start; }
 .flex-end{display: flex; align-items: center; justify-content: flex-end;}
 
+.g16{gap: 16px;}
 
 /* 사이트 기본구성 */
 * {box-sizing: border-box;}
@@ -488,6 +489,9 @@ textarea {
 .pr45 {padding-right:45px !important;}
 .pr50 {padding-right:50px !important;}
 
+/* 패딩 */
+.p16{padding: 16px !important;}
+
 
 /* 폰트사이즈 */
 .font11 {font-size:11px !important;}
@@ -506,3 +510,4 @@ textarea {
 .font40 {font-size:40px !important;}
 .font45 {font-size:45px !important;}
 .font50 {font-size:50px !important;}
+
