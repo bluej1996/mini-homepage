@@ -8,14 +8,14 @@ body{position: relative;}
 .header .logo{font-size: 22px; line-height: 54px; text-align: center;}
 
 /* common */
-.ico{width: 20px; height: 20px; background-size: contain; background-position: center; background-repeat: no-repeat; display: block;}
+.ico{width: 15px; height: 15px; background-size: contain; background-position: center; background-repeat: no-repeat; display: block;}
 
 .loginBox{position: absolute; top: 0;right: 0; height: 54px; line-height: 54px;}
 .loginBox .setting,
 .loginBox .join,
 .loginBox .in,
 .loginBox .out{cursor: pointer;}
-.loginBox .img{width: 17px; height: 17px; background-position: center; background-repeat: no-repeat; background-size: contain; margin-right: 6px;}
+.loginBox .img{width: 15px; height: 15px; background-position: center; background-repeat: no-repeat; background-size: contain; margin-right: 6px;}
 .loginBox .setting .img{background-image: url('../img/set.png');}
 .loginBox .join .img{}
 .loginBox .in .img{background-image: url('../img/login.png');}
@@ -38,15 +38,20 @@ body{position: relative;}
 
 /* 게시판 리스트 영역 */
 .box2{height: 514px;}
-.box2 .tit{color: #907fdd;}
+/* .box2 .tit{color: #907fdd;} */
+.box2 .tit{color: #99bfe8;}
 .list{height: 480px; overflow-y: scroll;}
-.item{padding: 10px 0; border-bottom: 1px solid #dfdfdf;}
+.item{cursor: pointer;padding: 14px 0; border-bottom: 1px solid #ebebeb; transition: 0.2s;}
+.item:hover { box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1); transform: translateY(-5px);}
 .item .thumbnail{}
 .item .text{}
 .item .text .date{display: block; color: #b8b8b8;}
 .item .text .btext{}
 
 .dateBox {background-color: #fff; padding: 16px;  border-radius: 14px; margin-bottom: 12px;}
+
+
+
 
 
 

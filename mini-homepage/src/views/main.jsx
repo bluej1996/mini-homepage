@@ -101,11 +101,11 @@ class Main extends Component {
             </div>
             <div className='box box3'>
               <div className='dateBox flex-sb'>
-                <span className='date'>date</span>
+                <span className='date color-purple'>date</span>
                 <span className='dateValue'>2024-02-06</span>
               </div>
               <div className='dateBox flex-sb'>
-                <span className='date'>today</span>
+                <span className='date color-purple'>today</span>
                 <span className='dateValue'>{name}</span>
               </div>
             </div>

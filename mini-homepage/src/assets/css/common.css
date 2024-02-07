@@ -14,6 +14,7 @@ blockquote:before, blockquote:after, q:before, q:after {content: ''; content: no
 table {border-collapse: collapse; border-spacing: 0;}
 
 .flex{display: flex; align-items: center;}
+.flex-sb{display: flex; align-items: center; justify-content: space-between;}
 .flex-as{display: flex; align-items: flex-start; }
 .flex-end{display: flex; align-items: center; justify-content: flex-end;}
 
@@ -134,7 +135,11 @@ textarea {
 
 
 /* 폰트색상 */
-.color-blue {color:#4F8EF8 !important;}
+.color-blue {color:#99bfe8 !important;}
+.color-purple {color:#907fdd !important;}
+.color-purple-dark {color:#a1a0c9 !important;}
+
+/* .color-blue {color:#4F8EF8 !important;}
 .color-blue-light {color:#6993ff !important;}
 .color-indigo {color:#5a61f1 !important;}
 .color-purple {color:#B556FF !important;}
@@ -150,11 +155,14 @@ textarea {
 .color-gray {color:#868e96 !important;}
 .color-light {color:#f8f9fa !important;}
 .color-dark {color:#343a40 !important;}
-.color-black {color:#222 !important;}
+.color-black {color:#222 !important;} */
 
 
 /* 라인색 */
-.border-blue {border:#4F8EF8 1px solid !important;}
+.border-blue {border:#99bfe8 1px solid !important;}
+.border-purple {border:#907fdd 1px solid !important;}
+
+/* .border-blue {border:#4F8EF8 1px solid !important;}
 .border-blue-light {border:#6993ff 1px solid !important;}
 .border-indigo {border:#5a61f1 1px solid !important;}
 .border-purple {border:#B556FF 1px solid !important;}
@@ -170,7 +178,7 @@ textarea {
 .border-gray {border:#868e96 1px solid !important;}
 .border-light {border:#f8f9fa 1px solid !important;}
 .border-dark {border:#343a40 1px solid !important;}
-.border-black {border:#222 1px solid !important;}
+.border-black {border:#222 1px solid !important;} */
 
 
 /* 가로사이즈 (%) */
