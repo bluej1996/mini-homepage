@@ -1,8 +1,14 @@
 // import { Text, StyleSheet, View } from 'react-native'
 import React, { Component } from 'react'
 
-export default class Main extends Component {
+class Main extends Component {
+  
+
   render() {
+
+    const { color, name, isSpecial } = this.props;
+    
+
     return (
       <div className='container'>
         <div className='wrap'>
@@ -39,7 +45,48 @@ export default class Main extends Component {
               </div>
             </div>
             <div className='box box2'>
+              <p className='tit'>미니홈피 게시글</p>
               <ul className='list'>
+                <li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <span className='date'>2024-02-06</span>
+                      <div className='btext'>제목제목</div>
+                      {/* <div className='stext'>내용입니다 .....</div> */}
+                    </div>
+                  </div>
+                </li>
+                <li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <span className='date'>2024-02-06</span>
+                      <div className='btext'>제목제목</div>
+                      {/* <div className='stext'>내용입니다 .....</div> */}
+                    </div>
+                  </div>
+                </li>
+                <li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <span className='date'>2024-02-06</span>
+                      <div className='btext'>제목제목</div>
+                      {/* <div className='stext'>내용입니다 .....</div> */}
+                    </div>
+                  </div>
+                </li>
+                <li className='item'>
+                  <div className='flex'>
+                    <div className='thumbnail'></div>
+                    <div className='text'>
+                      <span className='date'>2024-02-06</span>
+                      <div className='btext'>제목제목</div>
+                      {/* <div className='stext'>내용입니다 .....</div> */}
+                    </div>
+                  </div>
+                </li>
                 <li className='item'>
                   <div className='flex'>
                     <div className='thumbnail'></div>
@@ -52,7 +99,16 @@ export default class Main extends Component {
                 </li>
               </ul>
             </div>
-            <div className='box box3'></div>
+            <div className='box box3'>
+              <div className='dateBox flex-sb'>
+                <span className='date'>date</span>
+                <span className='dateValue'>2024-02-06</span>
+              </div>
+              <div className='dateBox flex-sb'>
+                <span className='date'>today</span>
+                <span className='dateValue'>{name}</span>
+              </div>
+            </div>
           </div>
         </div>
         <div className='footer'></div>
@@ -63,3 +119,9 @@ export default class Main extends Component {
 }
 
 // const styles = StyleSheet.create({})
+
+Main.defaultProps = {
+  name: 'test입니다'
+};
+
+export default Main;
