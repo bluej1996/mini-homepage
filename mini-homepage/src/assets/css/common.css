@@ -132,7 +132,9 @@ textarea {
 .bg-light {background:#f8f9fa !important;}
 .bg-dark {background:#343a40 !important;}
 .bg-black {background:#222 !important;}
-
+.bg-color-blue {background:#99bfe8 !important;}
+.bg-color-purple {background:#907fdd !important;}
+.bg-color-purple-dark {background:#a1a0c9 !important;}
 
 /* 폰트색상 */
 .color-blue {color:#99bfe8 !important;}

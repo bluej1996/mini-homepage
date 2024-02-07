@@ -23,10 +23,10 @@ body{position: relative;}
 .loginBox span{display: block;}
 
 .content{}
-.content .box{}
-.content .box1{width: 20%; background-color: #fff; padding: 16px;  border-radius: 14px;}
-.content .box2{width: 60%; background-color: #fff; padding: 16px;  border-radius: 14px;}
-.content .box3{width: 20%; }
+.box{background-color: #fff; padding: 16px; border-radius: 14px;}
+.content .box1{width: 20%;}
+.content .box2{width: 60%;}
+.content .box3{width: 20%;}
 
 /* 프로필 영역 */
 .box1{}
