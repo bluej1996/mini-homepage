@@ -2,12 +2,82 @@
 
 /* profile */
 .profileBox1{
+    position: relative;
     width: 35%;
-    height: 100%;
-    
+    height: 300px
+}
+.profileBox1 .box{
+    width: 232px; 
+    margin: 0 auto;
+}
+.profilePicture{
+    position: relative;
+    margin: 0 auto;
+    background-size: cover; 
+    background-image: url('../img/iu.jpeg'); 
+    background-position: center; 
+    background-repeat: no-repeat; width: 200px; height: 200px; 
+    font-size: 0;
+}
+.profileFindBtn{
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+}
+.profileContainer{
+    padding: 64px;
 }
 .profileBox2{   
+    position: relative;
     width: 65%;
     height: 512px;
-    background-color: #f0f0f9 !important;
+    /* background-color: #f0f0f9 !important; */
+}
+.profileBox2 .box{
+    width: 100%;
+    height: 100%;
+}
+.profileSubConent{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.profileSubConent .input{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+}
+.profileSubConent input:focus{
+    /* outline: 1px solid #99bfe8; */
+    /* outline: 1px solid #907fdd; */
+    outline: 1px solid #a1a0c9;
+}
+.profileSubConent span{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.profileBtnContainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+}
+.profileBtnContainer .profileBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 40px;
+    border: 1px solid #99bfe886;  
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.profileBtn:hover{
+    transition: ease-in 0.2s;
+    background-color: #99bfe83d;
 }

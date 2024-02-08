@@ -23,25 +23,33 @@ export default class Profile extends Component {
               </div>
             </div>
           </div>
-          <div className='content'>
+          <div className='profileContent'>
             <div className='flex g16 p16'>
-              <div className='box profileBox1'>
-                <div>사진</div>
-                <div>파일찾기</div>
+              <div className='profileBox1'>
+                <div className='box'>
+                  <div className='profilePicture'>사진</div>
+                  <div className='profileFindBtn mt10'>파일찾기</div>
+                </div>
               </div>
-              <div className='box profileBox2'>
-                <div className='profileContainer'>
-                  <div className='profileContent'>
-                    <div className='profileHomepageName'>
-                      <span>홈피이름</span>
-                      <input type="text" className='input'/>
+              <div className='profileBox2'>
+                <div className='box'>
+                  <div className='profileContainer'>
+                    <div className='profileSubConent'>
+                      <span>사이트 제목</span>
+                      <input type="text" className='input' placeholder='아이슈의 미니홈피'/>
                     </div>
-                    <div className='profileNickname'>별명</div>
-                    <div className='profileMessage'>상메</div>
+                    <div className='profileSubConent'>
+                      <span>별명</span>
+                      <input type="text" className='input' placeholder='아이슈'/>
+                    </div>
+                    <div className='profileSubConent'>
+                      <span>상태 메세지</span>
+                      <input type="text" className='input' placeholder='믿어 의심치 않아'/>
+                    </div>
                   </div>
-                  <div className='profileBtn'>
-                    <div className='profileCancel'>취소</div>
-                    <div className='profileSuccess'>확인</div>
+                  <div className='profileBtnContainer'>
+                    <div className='profileBtn'>취소</div>
+                    <div className='profileBtn'>확인</div>
                   </div>
                 </div>
               </div>
