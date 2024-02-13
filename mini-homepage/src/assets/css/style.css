@@ -1,14 +1,26 @@
 @charset "utf-8";
 
 /* profile */
+.profileContent{
+    position: relative;
+    height: calc( 100% - 54px );
+}
+.profileContent .flex{
+    width: 100%;
+    height: 100%;
+}
 .profileBox1{
     position: relative;
     width: 35%;
-    height: 300px
+    height: 100%;
 }
 .profileBox1 .box{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     width: 232px; 
     margin: 0 auto;
+    border-radius: 50%;
 }
 .profilePicture{
     position: relative;
@@ -18,6 +30,30 @@
     background-position: center; 
     background-repeat: no-repeat; width: 200px; height: 200px; 
     font-size: 0;
+    border-radius: 50%;
+}
+.profileEditIconWrap{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 1px #e5e5e5;
+}
+.profileEditIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('../img/edit2.png') no-repeat center;
+    background-size: cover;
 }
 .profileFindBtn{
     cursor: pointer;
@@ -25,17 +61,18 @@
     border: 1px solid #e5e5e5;
 }
 .profileContainer{
-    padding: 64px;
+    padding: 32px;
 }
 .profileBox2{   
     position: relative;
     width: 65%;
-    height: 512px;
+    height: 100%;
     /* background-color: #f0f0f9 !important; */
 }
 .profileBox2 .box{
     width: 100%;
-    height: 100%;
+    height: auto;
+    margin-top: 30px;
 }
 .profileSubConent{
     display: flex;
@@ -54,7 +91,7 @@
     outline: 1px solid #a1a0c9;
 }
 .profileSubConent span{
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 5px;
 }
 .profileBtnContainer{
@@ -62,7 +99,7 @@
     justify-content: center;
     gap: 30px;
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     left: 0;
     width: 100%;
 }
@@ -72,12 +109,15 @@
     align-items: center;
     width: 35%;
     height: 40px;
-    border: 1px solid #99bfe886;  
+    background-color: #fff;
+    border: 1px solid #e5e5e5;  
     border-radius: 20px;
     font-size: 16px;
     cursor: pointer;
 }
 .profileBtn:hover{
     transition: ease-in 0.2s;
-    background-color: #99bfe83d;
+    color: #fff;
+    border: 1px solid #907fdd; 
+    background-color: #907fdd;
 }

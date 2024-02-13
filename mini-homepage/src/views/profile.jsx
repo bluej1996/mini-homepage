@@ -24,11 +24,13 @@ export default class Profile extends Component {
             </div>
           </div>
           <div className='profileContent'>
-            <div className='flex g16 p16'>
+            <div className='flex g16 p36'>
               <div className='profileBox1'>
                 <div className='box'>
                   <div className='profilePicture'>사진</div>
-                  <div className='profileFindBtn mt10'>파일찾기</div>
+                  <div className='profileEditIconWrap'>
+                    <i className='profileEditIcon'></i>
+                  </div>
                 </div>
               </div>
               <div className='profileBox2'>
@@ -47,10 +49,10 @@ export default class Profile extends Component {
                       <input type="text" className='input' placeholder='믿어 의심치 않아'/>
                     </div>
                   </div>
-                  <div className='profileBtnContainer'>
-                    <div className='profileBtn'>취소</div>
-                    <div className='profileBtn'>확인</div>
-                  </div>
+                </div>
+                <div className='profileBtnContainer'>
+                  <div className='profileBtn'>취소</div>
+                  <div className='profileBtn'>확인</div>
                 </div>
               </div>
             </div>
