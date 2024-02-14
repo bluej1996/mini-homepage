@@ -7,7 +7,7 @@ import Setting from './views/setting';
 
 import Detail from './views/writing/detail';
 import Insert from './views/writing/insert';
-import List from './views/writing/list';
+// import List from './views/writing/list';
 import Modify from './views/writing/modify';
 
 import FindId from './views/login/find_id';
@@ -26,7 +26,7 @@ const App = () => {
 
           <Route path="/writing/detail" element={<Detail />} />
           <Route path="/writing/insert" element={<Insert />} />
-          <Route path="/writing/list" element={<List />} />
+          {/* <Route path="/writing/list" element={<List />} /> */}
           <Route path="/writing/modify" element={<Modify />} />
 
           <Route path="/login/findid" element={<FindId />} />

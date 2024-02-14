@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 class Main extends Component {
   render() {
-    const { color, name, isSpecial } = this.props;
+    // const {  name,  } = this.props;
 
     return (
       <div className="container">

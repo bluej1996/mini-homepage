@@ -1,3 +1,4 @@
+// prettier-ignore 
 @charset "utf-8";
 body {
   position: relative;
@@ -153,4 +154,48 @@ body {
   padding: 16px;
   border-radius: 14px;
   margin-bottom: 12px;
+}
+
+/* 게시판 상세보기 */
+.box.detail {
+  height: 514px;
+  width: 100%;
+  padding: 32px;
+}
+.detailContainer {
+  height: 100%;
+  overflow-y: scroll;
+}
+.box.detail .title {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 20px;
+  padding: 4px 0;
+  display: inline-block;
+  word-break: break-all;
+  position: relative;
+}
+.box.detail .title::after {
+  content: '';
+  width: 100px;
+  height: 1px;
+  background-color: #99bfe8;
+  bottom: -4px;
+  left: 0;
+  display: block;
+  position: absolute;
+}
+.box.detail .contents {
+  color: #888;
+  word-break: break-all;
+}
+.box.detail .img {
+  display: block;
+  background-image: url('../img/sample.jpg');
+  width: 400px;
+  height: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
