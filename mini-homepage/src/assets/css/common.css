@@ -1,5 +1,4 @@
-/* eslint-disable */
-
+/* prettier-ignore */
 @charset "utf-8";
 @font-face {
   font-family: 'Pretendard-Regular';
@@ -204,11 +203,11 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #ec0745;
+  color: #907fdd;
 }
 a:active {
   text-decoration: none;
-  color: #ec0745;
+  color: #907fdd;
 }
 button {
   text-decoration: none;
@@ -219,17 +218,17 @@ button {
 }
 button:hover {
   text-decoration: none;
-  color: #ec0745;
+  color: #907fdd;
 }
 button:active {
   text-decoration: none;
-  color: #ec0745;
+  color: #907fdd;
 }
 .router-link-active {
-  color: #ec0745 !important;
+  color: #907fdd !important;
 }
 .router-link-exact-active {
-  color: #ec0745 !important;
+  color: #907fdd !important;
 }
 
 /* 스크롤바 */

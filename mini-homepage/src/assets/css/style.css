@@ -123,3 +123,39 @@
   border: 1px solid #907fdd;
   background-color: #907fdd;
 }
+
+/* setting */
+
+.settingContent .box1 {
+  width: 20%;
+  padding: 24px !important;
+}
+.settingContent .box2 {
+  width: 80%;
+}
+.tabMenu > li {
+  margin-bottom: 20px;
+}
+.tabTitle {
+  display: flex;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+.statisticsIco {
+  background: url('../img/statistical.png') center no-repeat;
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  margin-right: 5px;
+}
+.manageHpIco {
+  background: url('../img/layout3.png') center no-repeat;
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  margin-right: 5px;
+}
+.tabSublist li {
+  margin-left: 30px;
+}
