@@ -30,11 +30,15 @@ class Insert extends Component {
             <div className="flex-as g16 p16">
               <div className="box detail">
                 <div className="detailContainer">
-                  <h1 className="title">제목제목</h1>
-                  <p className="contents">
-                    내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당내용입니당
-                  </p>
-                  <span className="img"></span>
+                  <div className="profileSubConent">
+                    <span>제목</span>
+                    <input type="text" className="input" placeholder="제목" />
+                  </div>
+                  <div className="profileSubConent">
+                    <span>내용</span>
+                    <textarea name="" id="" cols="30" rows="10" className="input" placeholder="내용"></textarea>
+                    {/* <input type="text" className="input" placeholder="내용" /> */}
+                  </div>
                 </div>
               </div>
             </div>

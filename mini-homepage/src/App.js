@@ -31,8 +31,8 @@ const App = () => {
 
           <Route path="/login/findid" element={<FindId />} />
           <Route path="/login/findpw" element={<FindPw />} />
-          <Route path="/login" element={<Join />} />
-          <Route path="/join" element={<Login />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/join" element={<Join />} />
         </Routes>
       </div>
     </BrowserRouter>

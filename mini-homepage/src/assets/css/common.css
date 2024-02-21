@@ -1,4 +1,5 @@
-/* prettier-ignore */
+/* eslint-disable */
+
 @charset "utf-8";
 @font-face {
   font-family: 'Pretendard-Regular';
@@ -130,6 +131,11 @@ table {
   display: flex;
   align-items: center;
 }
+.flex-c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .flex-sb {
   display: flex;
   align-items: center;
@@ -203,11 +209,11 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #907fdd;
+  color: #ec0745;
 }
 a:active {
   text-decoration: none;
-  color: #907fdd;
+  color: #ec0745;
 }
 button {
   text-decoration: none;
@@ -218,17 +224,17 @@ button {
 }
 button:hover {
   text-decoration: none;
-  color: #907fdd;
+  color: #ec0745;
 }
 button:active {
   text-decoration: none;
-  color: #907fdd;
+  color: #ec0745;
 }
 .router-link-active {
-  color: #907fdd !important;
+  color: #ec0745 !important;
 }
 .router-link-exact-active {
-  color: #907fdd !important;
+  color: #ec0745 !important;
 }
 
 /* 스크롤바 */
