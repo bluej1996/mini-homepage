@@ -35,15 +35,21 @@ class Login extends Component {
                           <span>비밀번호</span>
                           <input type="password" className="input" placeholder="PASSWORD" />
                         </div>
-                        <div className="flex-c find">
+                        <div className="flex-c find mb30">
                             <p className="color-blue">아이디 찾기</p>
                             <p className="color-purple">비밀번호 찾기</p>
                         </div>
+                        <div className="pfBtn mb10">
+                          <div className="profileBtn">취소</div>
+                          <div className="profileBtn">확인</div>
+                        </div>
+                        <a href="#" className="kakao-login-btn">
+                          <div className="flex-c">
+                            <span className="ico"></span>
+                            <p>카카오톡 로그인</p>
+                          </div>
+                        </a>
                       </div>
-                    </div>
-                    <div className="profileBtnContainer">
-                      <div className="profileBtn">취소</div>
-                      <div className="profileBtn">확인</div>
                     </div>
                   </div>
                 </div>

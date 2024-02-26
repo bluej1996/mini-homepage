@@ -123,6 +123,19 @@ body {
 .box2 .tit {
   color: #99bfe8;
 }
+
+.box2 .viewBox {
+
+}
+.box2 .viewBox li{
+  width: 20px; height: 20px; margin-right: 6px;
+}
+.box2 .viewBox .view1{background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' fill='none'%3E%3Cpath fill='%23DDD' fill-rule='evenodd' d='M2.75 4.13c0-.762.613-1.38 1.38-1.38h4.574c.762 0 1.38.613 1.38 1.38v4.574c0 .762-.613 1.38-1.38 1.38H4.129a1.377 1.377 0 0 1-1.379-1.38V4.129Zm0 9.166c0-.762.613-1.38 1.38-1.38h4.574c.762 0 1.38.613 1.38 1.38v4.575c0 .761-.613 1.379-1.38 1.379H4.129a1.377 1.377 0 0 1-1.379-1.38zm9.167-9.167c0-.761.612-1.379 1.379-1.379h4.575c.761 0 1.379.613 1.379 1.38v4.574c0 .762-.613 1.38-1.38 1.38h-4.574c-.762 0-1.38-.613-1.38-1.38zm0 9.167c0-.762.612-1.38 1.379-1.38h4.575c.761 0 1.379.613 1.379 1.38v4.575c0 .761-.613 1.379-1.38 1.379h-4.574c-.762 0-1.38-.613-1.38-1.38z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;}
+.box2 .viewBox .view1.on{background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' fill='none'%3E%3Cpath fill='%23444' fill-rule='evenodd' d='M2.75 4.13c0-.762.613-1.38 1.38-1.38h4.574c.762 0 1.38.613 1.38 1.38v4.574c0 .762-.613 1.38-1.38 1.38H4.129a1.377 1.377 0 0 1-1.379-1.38V4.129Zm0 9.166c0-.762.613-1.38 1.38-1.38h4.574c.762 0 1.38.613 1.38 1.38v4.575c0 .761-.613 1.379-1.38 1.379H4.129a1.377 1.377 0 0 1-1.379-1.38zm9.167-9.167c0-.761.612-1.379 1.379-1.379h4.575c.761 0 1.379.613 1.379 1.38v4.574c0 .762-.613 1.38-1.38 1.38h-4.574c-.762 0-1.38-.613-1.38-1.38zm0 9.167c0-.762.612-1.38 1.379-1.38h4.575c.761 0 1.379.613 1.379 1.38v4.575c0 .761-.613 1.379-1.38 1.379h-4.574c-.762 0-1.38-.613-1.38-1.38z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat}
+.box2 .viewBox .view2{background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' fill='none'%3E%3Cpath fill='%23DDD' fill-rule='evenodd' d='M2.75 4.126c0-.76.616-1.376 1.38-1.376h7.322c.763 0 1.381.622 1.381 1.376v.915c0 .76-.615 1.376-1.38 1.376H4.13a1.38 1.38 0 0 1-1.381-1.376v-.915Zm11.917 0c0-.76.618-1.376 1.375-1.376h1.833c.76 0 1.375.622 1.375 1.376v.915c0 .76-.618 1.376-1.375 1.376h-1.833a1.38 1.38 0 0 1-1.375-1.376zM2.75 10.542c0-.76.616-1.375 1.38-1.375h7.322c.763 0 1.381.622 1.381 1.375v.916c0 .76-.615 1.375-1.38 1.375H4.13a1.38 1.38 0 0 1-1.381-1.375v-.916Zm11.917 0c0-.76.618-1.375 1.375-1.375h1.833c.76 0 1.375.622 1.375 1.375v.916c0 .76-.618 1.375-1.375 1.375h-1.833a1.38 1.38 0 0 1-1.375-1.375zM2.75 16.96c0-.76.616-1.376 1.38-1.376h7.322c.763 0 1.381.622 1.381 1.376v.915c0 .76-.615 1.376-1.38 1.376H4.13a1.38 1.38 0 0 1-1.381-1.376v-.915Zm11.917 0c0-.76.618-1.376 1.375-1.376h1.833c.76 0 1.375.622 1.375 1.376v.915c0 .76-.618 1.376-1.375 1.376h-1.833a1.38 1.38 0 0 1-1.375-1.376z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat }
+.box2 .viewBox .view2.on{background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' fill='none'%3E%3Cpath fill='%23444' fill-rule='evenodd' d='M2.75 4.126c0-.76.616-1.376 1.38-1.376h7.322c.763 0 1.381.622 1.381 1.376v.915c0 .76-.615 1.376-1.38 1.376H4.13a1.38 1.38 0 0 1-1.381-1.376v-.915Zm11.917 0c0-.76.618-1.376 1.375-1.376h1.833c.76 0 1.375.622 1.375 1.376v.915c0 .76-.618 1.376-1.375 1.376h-1.833a1.38 1.38 0 0 1-1.375-1.376zM2.75 10.542c0-.76.616-1.375 1.38-1.375h7.322c.763 0 1.381.622 1.381 1.375v.916c0 .76-.615 1.375-1.38 1.375H4.13a1.38 1.38 0 0 1-1.381-1.375v-.916Zm11.917 0c0-.76.618-1.375 1.375-1.375h1.833c.76 0 1.375.622 1.375 1.375v.916c0 .76-.618 1.375-1.375 1.375h-1.833a1.38 1.38 0 0 1-1.375-1.375zM2.75 16.96c0-.76.616-1.376 1.38-1.376h7.322c.763 0 1.381.622 1.381 1.376v.915c0 .76-.615 1.376-1.38 1.376H4.13a1.38 1.38 0 0 1-1.381-1.376v-.915Zm11.917 0c0-.76.618-1.376 1.375-1.376h1.833c.76 0 1.375.622 1.375 1.376v.915c0 .76-.618 1.376-1.375 1.376h-1.833a1.38 1.38 0 0 1-1.375-1.376z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;}
+.box2 .viewBox .view3{background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' fill='none'%3E%3Cpath fill='%23DDD' d='M17.417 2.75H4.583c-1.012 0-1.833.82-1.833 1.833V8.25c0 1.013.82 1.833 1.833 1.833h12.834c1.012 0 1.833-.82 1.833-1.833V4.583c0-1.012-.82-1.833-1.833-1.833m0 9.167H4.583c-1.012 0-1.833.82-1.833 1.833v3.667c0 1.012.82 1.833 1.833 1.833h12.834c1.012 0 1.833-.82 1.833-1.833V13.75c0-1.012-.82-1.833-1.833-1.833'/%3E%3C/svg%3E") no-repeat}
+.box2 .viewBox .view3.on{background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' fill='none'%3E%3Cpath fill='%23444' fill-rule='evenodd' d='M4.583 2.75h12.834c1.012 0 1.833.82 1.833 1.833V8.25c0 1.013-.82 1.833-1.833 1.833H4.583A1.833 1.833 0 0 1 2.75 8.25V4.583c0-1.012.82-1.833 1.833-1.833m0 9.167h12.834c1.012 0 1.833.82 1.833 1.833v3.667c0 1.012-.82 1.833-1.833 1.833H4.583a1.833 1.833 0 0 1-1.833-1.833V13.75c0-1.012.82-1.833 1.833-1.833' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;}
 .list {
   height: 480px;
   overflow-y: scroll;
@@ -186,3 +199,65 @@ body {
 }
 .profileBox2.login .find p:nth-child(1){margin-right: 10px;}
 
+.pfBtn {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  /* position: absolute; */
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+.pfBtn .profileBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.profileBtn:hover {
+  transition: ease-in 0.2s;
+  color: #fff;
+  border: 1px solid #907fdd;
+  background-color: #907fdd;
+}
+
+
+/* 카카오톡 로그인 버튼 스타일 */
+.kakao-login-btn {
+  margin: auto;
+  display: block;
+  background-color: #f7e417;
+  color: #000;
+  font-family: Arial, sans-serif;
+  /* font-size: 16px; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.kakao-login-btn .ico {
+  display: block;
+  width: 20px; height: 20px;
+  background-image: url('../img/kakao.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.kakao-login-btn:hover {
+  background-color: #f8eb8f;
+}
+
+.kakao-login-btn:active {
+  background-color: #e5d925;
+  box-shadow: none;
+}
