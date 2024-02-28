@@ -6,23 +6,6 @@ export default class Profile extends Component {
     return (
       <div className="container">
         <div className="wrap">
-          <div className="header">
-            <div className="logo">logo</div>
-            <div className="loginBox flex">
-              <div className="setting flex">
-                <span className="img"></span>
-                <span>통계 및 관리</span>
-              </div>
-              <div className="in flex ml20">
-                <span className="img"></span>
-                <span>로그인</span>
-              </div>
-              <div className="out flex ml10">
-                <span className="img"></span>
-                <span>로그아웃</span>
-              </div>
-            </div>
-          </div>
           <div className="profileContent">
             <div className="flex g16 p36">
               <div className="profileBox1">

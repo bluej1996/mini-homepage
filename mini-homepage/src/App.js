@@ -14,11 +14,13 @@ import FindId from './views/login/find_id';
 import FindPw from './views/login/find_pw';
 import Join from './views/login/join';
 import Login from './views/login/login';
+import Header from './components/common/header';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
+        <Header></Header>
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/profile" element={<Profile />} />
