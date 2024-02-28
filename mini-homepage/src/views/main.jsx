@@ -25,7 +25,7 @@ class Main extends Component {
               <div className="in flex ml20">
                 <span className="img"></span>
                 <span><Link to={`/login`}>로그인</Link></span>
-              </div>ƒ
+              </div>
               <div className="out flex ml10">
                 <span className="img"></span>
                 <span>로그아웃</span>
